@@ -5,6 +5,8 @@ import DestinationsPage from "./pages/Destinationspage";
 import ExperiencesPage from "./pages/ExperiencesPage";
 import PropertiesPage from "./pages/PropertiesPage";
 import ServicesPage from "./pages/ServicesPage";
+import BookingPage from "./pages/BookingPage";
+import LikedPage from "./pages/LikedPage"
 
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
@@ -24,6 +26,8 @@ const App = () => {
         <Route path="/experiences" element={<ExperiencesPage />} />
         <Route path="/properties" element={<PropertiesPage />} />
         <Route path="/services" element={<ServicesPage />} />
+        <Route path="/booking" element={<BookingPage />} />
+        <Route path="/liked" element={<LikedPage />} />
       </Routes>
 
       <Footer />

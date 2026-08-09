@@ -1,10 +1,11 @@
 
-import Spline from "@splinetool/react-spline";
+import Spline from "@splinetool/react-spline"
 
 const HomePage = () => {
 
   return (
-    <div className="flex">
+
+    <div className="w-full">
       <div
         className="relative w-full h-[94vh] overflow-hidden"
       >
@@ -13,7 +14,9 @@ const HomePage = () => {
           className="scale-120"
         />
       </div>
+      
     </div>
+    
   );
 };
 
