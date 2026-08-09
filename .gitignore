@@ -1,3 +1,4 @@
+```gitignore
 # Logs
 logs
 *.log
@@ -7,9 +8,19 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Dependencies
+node_modules/
+
+# Build
 dist
 dist-ssr
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local files
 *.local
 
 # Editor directories and files
@@ -20,5 +31,7 @@ dist-ssr
 *.suo
 *.ntvs*
 *.njsproj
+*.njsproj
 *.sln
 *.sw?
+```
