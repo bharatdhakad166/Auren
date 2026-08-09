@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@utility nav-button {
+  @apply relative px-4 py-2; 
+  
+  /* 1. Base dot style (Hidden by default) */
+  &::after {
+    content: '';
+    @apply absolute bottom-0 left-1/2 -translate-x-1/2;
+    @apply w-1.5 h-1.5 bg-white rounded-full;
+    @apply opacity-0 scale-0 transition-all duration-200 ease-out;
+  }
+
+  /* 2. Hover state: Show dot on hover */
+  &:hover::after {
+    @apply opacity-100 scale-100;
+  }
+
+  /* 3. Active state: Keep dot visible on the current page */
+  &.active::after,
+  &[aria-current="page"]::after {
+    @apply opacity-100 scale-100;
+  }
+}
