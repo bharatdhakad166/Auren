@@ -6,9 +6,9 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="flex justify-between items-center bg-black text-white h-14 px-4">
+    <div className="fixed top-0 left-0 w-full z-50 flex justify-between items-center bg-black text-white h-14 px-4">
       {/* Logo */}
-      <Link to="/" className="text-[36px] font-bodo">
+      <Link to="/" className="text-[36px] font-cin">
         AUREN
       </Link>
 

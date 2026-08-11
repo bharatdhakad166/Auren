@@ -7,7 +7,7 @@ const footer = () => {
       <div className="px-8 md:flex">
 
         <div className="md:w-[50%]">
-          <h1 className="font-bodo text-4xl ">A U R E N</h1>
+          <h1 className="font-cin text-4xl ">A U R E N</h1>
           <p className="font-mont text-1xl pt-4"> Elevating your stay with unmatched elegance and<br/> exclusive comfort.
           </p>
           <div className="flex gap-6 py-6 items-center">
@@ -20,14 +20,14 @@ const footer = () => {
           </div>
         </div>
         <div className="flex justify-between md:w-[50%] md:pr-14">
-          <div className="flex flex-col gap-2 font-bodo">
+          <div className="flex flex-col gap-2 font-cin">
             <h1 className="footerheading">THE COLLECTION</h1>
             <a className="anchor">Private Island</a>
             <a className="anchor">Architectural Homes</a>
             <a className="anchor">Yacht Charter</a>
             <a className="anchor">Aviation</a>
           </div>
-          <div className="flex flex-col gap-2 font-bodo">
+          <div className="flex flex-col gap-2 font-cin">
             <h1 className="footerheading">COMPANY</h1>
             <a className="anchor">About Us</a>
             <a className="anchor">General</a>
@@ -38,7 +38,7 @@ const footer = () => {
 
       </div>
       <div className=" md:flex md:justify-end border-b mt-4">
-        <div className="mx-8 pb-6 flex flex-col gap-2 font-bodo
+        <div className="mx-8 pb-6 flex flex-col gap-2 font-cin
         ">
           <h1 className="footerheading">CONNECT</h1>
           <a className="anchor">Membership Enquiry</a>
