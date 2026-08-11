@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center bg-black text-white h-14 px-4">
       {/* Logo */}
-      <Link to="/" className="text-[36px]">
+      <Link to="/" className="text-[36px] font-bodo">
         AUREN
       </Link>
 
@@ -39,7 +39,7 @@ const Navbar = () => {
         </Link>
 
         <Link to="/liked"><button className="cursor-pointer p-2 transition-transform duration-100 ease-in hover:scale-125 active:scale-85">
-          <Heart size={24} color="white" />
+          <Heart size={20} color="white" />
         </button></Link>
       </div>
       <div className="hidden lg:flex">

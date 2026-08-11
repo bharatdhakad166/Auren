@@ -5,7 +5,7 @@ const HomePage = () => {
 
   return (
 
-    <div className="w-full">
+    <div className="w-full bg-black">
       <div
         className="relative w-full h-[94vh] overflow-hidden"
       >
