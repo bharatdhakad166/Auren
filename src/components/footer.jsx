@@ -27,7 +27,7 @@ const footer = () => {
             <a className="anchor">Yacht Charter</a>
             <a className="anchor">Aviation</a>
           </div>
-          <div className="flex flex-col gap-2 font-cin">
+          <div className="flex flex-col gap-2 font-cin md:pr-8">
             <h1 className="footerheading">COMPANY</h1>
             <a className="anchor">About Us</a>
             <a className="anchor">General</a>

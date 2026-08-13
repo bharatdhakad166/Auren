@@ -2,7 +2,7 @@
 
 const ServicesPage = () => {
   return (
-    <div>ServicesPage</div>
+    <div className="text-white">ServicesPage</div>
   )
 }
 
